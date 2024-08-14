@@ -1,3 +1,6 @@
+.container {
+    width: 576px;
+}
 .menu .menu__items {
     display: none;
 }
@@ -6,4 +9,13 @@
 }
 .banner {
     flex-direction: column;
+}
+.run {
+    flex-direction: column;
+}
+.card {
+    flex-direction: column;
+}
+.grid__part {
+    grid-template-columns: 300px;
 }
