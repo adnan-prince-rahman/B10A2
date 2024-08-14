@@ -8,8 +8,15 @@
     .menu__item__mobile {
         display: flex;
     }
+    .mobile__container {
+        display: flex;
+        flex-direction: column;
+    }
     .banner {
         flex-direction: column;
+    }
+    .banner__left__heading {
+        font-size: 3rem;
     }
 
     .card {
