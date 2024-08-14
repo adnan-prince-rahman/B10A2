@@ -330,3 +330,87 @@ option {
     width: 405px;
 }
 /* ==================  BMI section end  ==========================*/
+/* ==================  meet section start  ==========================*/
+.meet h3 {
+    color: var(--primary_white_color);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 40px;
+    text-align: center;
+}
+.meet p {
+    color: var(--primary_text_color);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.grid__part {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 30px;
+}
+.grid__part img {
+    /* width: 30%; */
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+}
+.pic {
+    position: relative;
+}
+
+.pic-2 {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.pic-2 h4 {
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--primary_white_color);
+}
+.pic-2 p {
+    margin-top: 2px;
+    font-size: 1rem;
+    color: var(--primary_text_color);
+}
+/* ==================  meet section end  ==========================*/
+/* ==================  subscribe section start  ==========================*/
+.subscribe {
+    margin-top: 2rem;
+    display: flex;
+    background-color: red;
+    border-radius: 8px;
+    padding: 10px;
+    height: 200px;
+    align-items: center;
+    gap: 20px;
+}
+.subscribe__left {
+    color: var(--primary_white_color);
+    font-size: 3rem;
+    font-weight: 900;
+}
+.subscribe__right input {
+    width: 300px;
+    height: 40px;
+    border-radius: 18px;
+    border: none;
+    text-align: center;
+}
+.subscribe__right {
+    display: flex;
+    gap: 2px;
+}
+.subscribe__right input[type = "button"] {
+    width: 50%;
+    background-color: black;
+    color: var(--primary_white_color);
+    height: 40px;
+    border-radius: 18px;
+    margin-left: -40px;
+}
+/* ==================  subscribe section end  ==========================*/
+
+
+
