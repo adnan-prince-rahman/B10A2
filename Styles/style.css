@@ -266,10 +266,14 @@ a {
 .bmi__flex {
     display: flex;
     gap: 3rem;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
 }
 .bmi__left {
     width: 40%;
 }
+
 .bmi__title {
     color: var(--primary_white_color);
     font-size: 3rem;
@@ -283,6 +287,7 @@ a {
     font-weight: 400;
     text-align: center;
     margin-top: 15px;
+    margin-bottom: 60px;
 }
 .bmi__left h3, .bmi__right h3 {
     margin-top: 20px;
@@ -305,6 +310,23 @@ td {
 }
 .bmi__right p {
     color: var(--primary_text_color);
-
+    margin-bottom: 20px;
+}
+.form__style {
+    width: 200px;
+    height: 40px;
+    background-color: #222;
+    color: var(--primary_text_color);
+    border: none;
+    padding: 25px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: 1px solid ;
+}
+option {
+    color: var(--primary_white_color);
+}
+#form__id {
+    width: 405px;
 }
 /* ==================  BMI section end  ==========================*/
