@@ -1,0 +1,9 @@
+.menu .menu__items {
+    display: none;
+}
+.menu__item__mobile {
+    display: flex;
+}
+.banner {
+    flex-direction: column;
+}

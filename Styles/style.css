@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Inter:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* ==================  Common CSS  Start==========================*/
+
+:root {
+    --primary_background_color: #000;
+    --primary_button_color: #e6533c;
+    --primary_text_color: rgba(255, 255, 255, 0.5);
+    --primary_white_color: #fff;
+    --form_background_color: rgba(255, 255, 255, 0.1);
+    --container_width: 1060px;
+}
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--primary_background_color);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+img {
+    vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+li,
+ul,
+ol,
+img,
+a {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+/* ==================  Common CSS  End==========================*/
+/* ==================  Navbar Css Start  ==========================*/
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    align-items: center;
+}
+.menu .menu__fitness {
+    color: var(--primary_button_color);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
+}
+.menu .menu__items {
+    display: flex;
+    align-items: center;
+    gap: 47px;
+}
+.menu .menu__items a {
+    color: var(--primary_white_color);
+    font-size: 18px;
+    font-weight: 400;
+}
+.menu .menu__items__home {
+    background-color: var(--primary_button_color);
+    border-radius: 46px;
+    padding: 8px 20px;
+}
+.menu__item__mobile {
+    display: none;
+}
+/* ==================  Navbar Css End  ==========================*/
+/* ==================  Banner CSS Start  ==========================*/
+.banner {
+    display: flex;
+}
+.banner__left {
+    width: 50%;
+}
+.banner__left__heading {
+    color: var(--primary_white_color);
+    font-size: 78px;
+    font-weight: 900;
+    margin-top: 97px;
+}
+.banner__left__text {
+    color: var(--primary_text_color);
+    margin-top: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.banner__right {
+    position: relative;
+}
+.banner__right__img img {
+    width: 349px;
+    height: 580px;
+    margin-left: 167px;
+    margin-top: 44px;
+}
+.cursive {
+    font-family: "Alex Brush", cursive;
+}
+.banner__right__500 {
+    position: absolute;
+    top: 20px;
+    left: 380px;
+    width: 193px;
+    height: 98px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 125px;
+}
+.banner__down__350 {
+    display: flex;
+    position: absolute;
+    top: 370px;
+    left: 70px;
+    width: 193px;
+    height: 98px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 125px;
+}
+.banner__right__500 h3 {
+    color: var(--primary_white_color);
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 17px;
+}
+.banner__down__350 h3 {
+    color: var(--primary_white_color);
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 17px;
+}
+.banner__right__500 p,
+.banner__down__350 p {
+    color: var(--primary_text_color);
+    text-align: center;
+}
+.banner__down__350__right {
+    position: relative;
+    left: 25px;
+}
+.banner__down__350__dot {
+    position: relative;
+    top: 30px;
+    left: 10px;
+    height: 35px;
+    width: 35px;
+    background-color: var(--primary_button_color);
+    border-radius: 50%;
+}
+.btn-1 {
+    margin-top: 20px;
+    border-radius: 42px;
+    width: 224px;
+    background-color: var(--primary_button_color);
+    height: 52px;
+    border: none;
+    font-size: 18px;
+}
+.btn-1 a,
+.btn-2 a {
+    text-decoration: none;
+    color: var(--primary_white_color);
+}
+.btn-2 {
+    margin-top: 20px;
+    border-radius: 42px;
+    width: 224px;
+    height: 52px;
+    border: none;
+    font-size: 18px;
+    color: var(--primary_white_color);
+    background-color: black;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+/* ==================  Banner CSS End  ==========================*/
+/* ==================  Change your habit start  ==========================*/
+.habit__change__title {
+    margin-top: 4rem;
+    color: var(--primary_white_color);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.habit__change__text {
+    margin-top: 1.5rem;
+    color: var(--primary_text_color);
+    text-align: center;
+}
+.card {
+    display: flex;
+    gap: 70px;
+    text-align: center;
+    margin-top: 54px;
+}
+.card__1__img img {
+    border-radius: 50%;
+    margin-top: 40px;
+}
+.card__1__img__title {
+    color: var(--primary_white_color);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card__1__img__txt {
+    color: var(--primary_text_color);
+    width: 210px;
+    margin-top: 10px;
+}
+/* ==================  Change your habit end  ==========================*/
+/* ==================  run section start  ==========================*/
+.run {
+    margin-top: 100px;
+    background-color: #222;
+    border-radius: 18px;
+    height: 370px;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+}
+.run__right img {
+    width: 80%;
+    border-radius: 30px;
+    margin-left: 100px;
+}
+.run__left h3 {
+    color: var(--primary_white_color);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.run__left p {
+    color: var(--primary_text_color);
+    margin-bottom: 10px;
+}
+/* ==================  run section end  ==========================*/
+/* ==================  BMI section start  ==========================*/
+.bmi__flex {
+    display: flex;
+    gap: 3rem;
+}
+.bmi__left {
+    width: 40%;
+}
+.bmi__title {
+    color: var(--primary_white_color);
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
+}
+.bmi__text {
+    color: var(--primary_text_color);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+}
+.bmi__left h3, .bmi__right h3 {
+    margin-top: 20px;
+    color: var(--primary_white_color);
+    margin-bottom: 20px;
+}
+table,
+th,
+td {
+    border: 1px solid var(--primary_text_color);
+    border-collapse: collapse;
+}
+.bmi__left th {
+    color: var(--primary_white_color);
+    padding: 10px;
+}
+.bmi__left td {
+    color: var(--primary_text_color);
+    padding: 10px;
+}
+.bmi__right p {
+    color: var(--primary_text_color);
+
+}
+/* ==================  BMI section end  ==========================*/
